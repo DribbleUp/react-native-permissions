@@ -34,6 +34,10 @@
   #import "RCTEventDispatcher.h"
 #endif
 
+#import "RNPMediaLibrary.h"
+#import "RNPAudioVideo.h"
+#import "RNPNotification.h"
+/*
 #import "RNPLocation.h"
 #import "RNPBluetooth.h"
 #import "RNPNotification.h"
@@ -45,7 +49,7 @@
 #import "RNPSpeechRecognition.h"
 #import "RNPMediaLibrary.h"
 #import "RNPMotion.h"
-
+*/
 
 @interface ReactNativePermissions()
 @property (strong, nonatomic) RNPLocation *locationMgr;
